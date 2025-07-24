@@ -4,6 +4,7 @@ import "./globals.css";
 import I18nProvider from "./i18n-provider";
 import Navbar from "@/components/Navbar/Navbar";
 import TabletNav from "@/components/Navbar/TabletNav";
+import Footer from "@/components/Footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,9 +31,11 @@ export default function RootLayout({
 
   return (
     <html lang={lang}>
-      {/* <Navbar></Navbar> */}
-      <TabletNav></TabletNav>
+      <Navbar></Navbar>
+
+      {/* <MobileNav></MobileNav> */}
       <body>{children}</body>
+      <Footer></Footer>
     </html>
   );
 }

@@ -62,7 +62,7 @@ const DesktopNav = () => {
                   <Image src={Image2} alt="App logo" fill></Image>
                 </div>
                 <div className="flex gap-2">
-                  <Camera className="size-4 text-red-500 mt-[2px]"></Camera>
+                  <CirclePlay className="size-4 text-red-500 mt-[2px]"></CirclePlay>
                   <p>
                     বিধ্বস্ত হওয়া বিমানের <br /> পাইলটের সঙ্গে শেষ যে কথা
                     হয়েছিল
@@ -75,7 +75,7 @@ const DesktopNav = () => {
                   <Image src={Image3} alt="App logo" fill></Image>
                 </div>
                 <div className="flex gap-2">
-                  <Camera className="size-4 text-red-500 mt-[2px]"></Camera>
+                  <CirclePlay className="size-4 text-red-500 mt-[2px]"></CirclePlay>
                   <p>
                     ‘গ্রিল ভেঙে স্টুডেন্টদের বের <br /> করেছি, ততক্ষণে আগুন চলে
                     এসেছে’
