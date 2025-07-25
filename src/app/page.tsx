@@ -1,14 +1,19 @@
 "use client";
 
 import Container from "@/components/Container/Container";
-import { useTranslation } from "react-i18next";
+import AdSection from "@/Sections/AdSection";
+import ApnarJonnoSection from "@/Sections/ApnarJonnoSection";
+import MainSection from "@/Sections/MainSection";
 
 export default function Home() {
-  const { t } = useTranslation();
   return (
     <div>
       <Container>
-        <div className="h-screen bg-amber-500">{t("title")} </div>
+        <MainSection></MainSection>
+      </Container>
+      <AdSection></AdSection>
+      <Container>
+        <ApnarJonnoSection></ApnarJonnoSection>
       </Container>
     </div>
   );
