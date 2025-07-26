@@ -14,16 +14,36 @@ const AdSection = () => {
         <Container>
           <div className="grid grid-cols-4 gap-7">
             <div className="col-span-1 h-28 relative">
-              <Image src={Photo1} alt="photo1" fill></Image>
+              <Image
+                src={Photo1}
+                alt="photo1"
+                fill
+                className="object-cover"
+              ></Image>
             </div>
             <div className="col-span-1 h-28 relative">
-              <Image src={Photo2} alt="photo2" fill></Image>
+              <Image
+                src={Photo2}
+                alt="photo2"
+                fill
+                className="object-cover"
+              ></Image>
             </div>
             <div className="col-span-1 h-28 relative">
-              <Image src={Photo3} alt="photo3" fill></Image>
+              <Image
+                src={Photo3}
+                alt="photo3"
+                fill
+                className="object-cover"
+              ></Image>
             </div>
             <div className="col-span-1 h-28 relative">
-              <Image src={Photo4} alt="photo4" fill></Image>
+              <Image
+                src={Photo4}
+                alt="photo4"
+                fill
+                className="object-cover"
+              ></Image>
             </div>
           </div>
         </Container>

@@ -10,8 +10,13 @@ const LeftSectionMain = () => {
       </div>
 
       <div className="col-span-4 h-16 ">
-        <div className="h-16 w-24 relative">
-          <Image src={image} alt="normal image" fill></Image>
+        <div className="h-16 w-full relative">
+          <Image
+            src={image}
+            alt="normal image"
+            fill
+            className="object-cover"
+          ></Image>
         </div>
       </div>
       <p className="text-gray-500 col-span-12 text-sm">

@@ -16,7 +16,12 @@ const RightSectionMain = () => {
         </div>
         <div className="col-span-4">
           <div className="h-16 w-full relative">
-            <Image src={Scetch} fill alt="scetch"></Image>
+            <Image
+              src={Scetch}
+              fill
+              alt="scetch"
+              className="object-cover"
+            ></Image>
           </div>
         </div>
         <div className="col-span-12">

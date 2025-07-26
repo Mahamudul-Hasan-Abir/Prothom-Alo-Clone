@@ -86,7 +86,7 @@ const World = () => {
             <div className="col-span-1">
               <div className="h-[222px] w-full relative">
                 <Image
-                  src={Artilary}
+                  src={Resque}
                   alt="trump"
                   fill
                   className="object-cover"

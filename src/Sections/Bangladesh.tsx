@@ -114,7 +114,12 @@ const Bangladesh = () => {
             </div>
             <div className="col-span-4">
               <div className="h-28 w-full relative">
-                <Image src={Plastic} fill alt="scetch"></Image>
+                <Image
+                  src={Plastic}
+                  fill
+                  alt="scetch"
+                  className="object-cover"
+                ></Image>
               </div>
             </div>
 
@@ -135,7 +140,12 @@ const Bangladesh = () => {
             </div>
             <div className="col-span-4">
               <div className="h-28 w-full relative">
-                <Image src={Black} fill alt="scetch"></Image>
+                <Image
+                  src={Black}
+                  fill
+                  alt="scetch"
+                  className="object-cover"
+                ></Image>
               </div>
             </div>
             <div className="col-span-12">
@@ -162,7 +172,12 @@ const Bangladesh = () => {
             </div>
             <div className="col-span-4">
               <div className="h-28 w-full relative">
-                <Image src={Handculf} fill alt="scetch"></Image>
+                <Image
+                  src={Handculf}
+                  fill
+                  alt="scetch"
+                  className="object-cover"
+                ></Image>
               </div>
             </div>
             <p className="text-gray-500 col-span-12 text-xs mt-2">
@@ -179,7 +194,12 @@ const Bangladesh = () => {
             </div>
             <div className="col-span-4">
               <div className="h-20 w-full relative">
-                <Image src={July} fill alt="scetch"></Image>
+                <Image
+                  src={July}
+                  fill
+                  alt="scetch"
+                  className="object-cover"
+                ></Image>
               </div>
             </div>
 
@@ -196,7 +216,12 @@ const Bangladesh = () => {
             </div>
             <div className="col-span-4">
               <div className="h-20 w-full relative">
-                <Image src={Pilot} fill alt="scetch"></Image>
+                <Image
+                  src={Pilot}
+                  fill
+                  alt="scetch"
+                  className="object-cover"
+                ></Image>
               </div>
             </div>
 

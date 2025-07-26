@@ -10,8 +10,13 @@ const LeftSectionIsrail = () => {
       </div>
 
       <div className="col-span-4 h-16 ">
-        <div className="h-16 w-24 relative">
-          <Image src={Israil} alt="normal image" fill></Image>
+        <div className="h-16 w-full relative">
+          <Image
+            src={Israil}
+            alt="normal image"
+            fill
+            className="object-cover"
+          ></Image>
         </div>
       </div>
 

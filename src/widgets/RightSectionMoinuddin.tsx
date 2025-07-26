@@ -15,7 +15,12 @@ const RightSEctionMoinuddin = () => {
       </div>
       <div className="col-span-4">
         <div className="h-16 w-full relative">
-          <Image src={Moinudding} fill alt="scetch"></Image>
+          <Image
+            src={Moinudding}
+            fill
+            alt="scetch"
+            className="object-cover"
+          ></Image>
         </div>
       </div>
 

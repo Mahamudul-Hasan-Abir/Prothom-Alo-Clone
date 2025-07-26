@@ -13,7 +13,12 @@ const HeroSecondSection = () => {
         </div>
         <div className="col-span-4">
           <div className="h-20 w-full relative">
-            <Image src={maulana} fill alt="scetch"></Image>
+            <Image
+              src={maulana}
+              fill
+              alt="scetch "
+              className="object-cover"
+            ></Image>
           </div>
         </div>
         <div className="col-span-12">
@@ -34,7 +39,12 @@ const HeroSecondSection = () => {
         </div>
         <div className="col-span-4">
           <div className="h-20 w-full relative">
-            <Image src={xavi} fill alt="scetch"></Image>
+            <Image
+              src={xavi}
+              fill
+              alt="scetch"
+              className="object-cover"
+            ></Image>
           </div>
         </div>
         <div className="col-span-12">

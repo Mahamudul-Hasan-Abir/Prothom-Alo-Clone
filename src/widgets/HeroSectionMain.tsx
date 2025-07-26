@@ -1,11 +1,17 @@
 import Image from "next/image";
 import photo from "../../public/assets/frontpageimages/prothomalo-bangla_2025-07-25_hi6ji02o_Biman-1.avif";
+import Front from "../../public/assets/frontpageimages/front.avif";
 const HeroSectionMain = () => {
   return (
     <div className="grid grid-cols-2 gap-2 px-4 pb-2 border-b-2">
       <div className="col-span-1">
         <div className="w-72 h-48 relative">
-          <Image src={photo} alt="normal image" fill></Image>
+          <Image
+            src={Front}
+            alt="normal image"
+            fill
+            className="object-cover"
+          ></Image>
         </div>
         <p className="text-xs text-gray-400 mt-1">
           গৃহায়ণ ও গণপূর্ত মন্ত্রণালয়

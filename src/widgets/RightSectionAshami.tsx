@@ -11,7 +11,12 @@ const RightSectionAshami = () => {
       </div>
       <div className="col-span-4">
         <div className="h-16 w-full relative">
-          <Image src={Ashami} fill alt="scetch"></Image>
+          <Image
+            src={Ashami}
+            fill
+            alt="scetch"
+            className="object-cover"
+          ></Image>
         </div>
       </div>
 

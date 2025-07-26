@@ -7,7 +7,7 @@ const HeroThirdSeciton = () => {
     <div className="grid grid-cols-3 gap-2 mt-5 pt-5 border-t">
       <div className="col-span-1 border-r pr-2">
         <div className="h-44 w-full relative">
-          <Image src={girls} alt="image" fill />
+          <Image src={girls} alt="image" fill className="object-cover" />
         </div>
         <p className="text-lg font-semibold">
           {" "}
@@ -17,7 +17,7 @@ const HeroThirdSeciton = () => {
       </div>
       <div className="col-span-1  border-r pr-2">
         <div className="h-44 w-full relative">
-          <Image src={cricketer} alt="image" fill />
+          <Image src={cricketer} alt="image" fill className="object-cover" />
         </div>
         <p className="text-lg font-semibold">
           {" "}
@@ -27,7 +27,7 @@ const HeroThirdSeciton = () => {
       </div>
       <div className="col-span-1">
         <div className="h-44 w-full relative">
-          <Image src={hasina} alt="image" fill />
+          <Image src={hasina} alt="image" fill className="object-cover" />
         </div>
         <p className="text-lg font-semibold">
           {" "}

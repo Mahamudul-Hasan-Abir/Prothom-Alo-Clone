@@ -14,8 +14,15 @@ const Footer = () => {
     <Container>
       <div>
         <div className="w-full justify-center items-center flex border-t">
-          <div className="h-16 w-64 relative">
-            <Image src={FooterLogo} alt="footer logo" fill></Image>
+          <div className=" w-full flex items-center lg:justify-start justify-center">
+            <div className="h-16 w-64 relative">
+              <Image
+                src={FooterLogo}
+                alt="footer logo"
+                fill
+                className="object-contain"
+              ></Image>
+            </div>
           </div>
         </div>
         <div className="grid grid-cols-4 md:grid-cols-6 text-sm font-light h-20 mb-4 border-b">

@@ -14,7 +14,12 @@ const ApnarJonnoSection = () => {
       <div className="grid grid-cols-4 gap-2">
         <div className="col-span-1 border-r pr-2">
           <div className="h-48 w-full relative">
-            <Image src={Bangladesh} alt="apnarjonno" fill></Image>
+            <Image
+              src={Bangladesh}
+              alt="apnarjonno"
+              fill
+              className="object-cover"
+            ></Image>
           </div>
           <div>
             <h3 className="font-semibold mt-2">
@@ -31,7 +36,12 @@ const ApnarJonnoSection = () => {
         </div>
         <div className="col-span-1  border-r pr-2">
           <div className="h-48 w-full relative">
-            <Image src={Players} alt="apnarjonno" fill></Image>
+            <Image
+              src={Players}
+              alt="apnarjonno"
+              fill
+              className="object-cover"
+            ></Image>
           </div>
           <div>
             <h3 className="font-semibold mt-2">
@@ -50,7 +60,12 @@ const ApnarJonnoSection = () => {
         </div>
         <div className="col-span-1  border-r pr-2">
           <div className="h-48 w-full relative">
-            <Image src={Women} alt="apnarjonno" fill></Image>
+            <Image
+              src={Women}
+              alt="apnarjonno"
+              fill
+              className="object-cover"
+            ></Image>
           </div>
           <div>
             <h3 className="font-semibold mt-2">
@@ -69,7 +84,12 @@ const ApnarJonnoSection = () => {
         </div>
         <div className="col-span-1">
           <div className="h-48 w-full relative">
-            <Image src={Icon} alt="apnarjonno" fill></Image>
+            <Image
+              src={Icon}
+              alt="apnarjonno"
+              fill
+              className="object-cover"
+            ></Image>
           </div>
           <div>
             <h3 className="font-semibold mt-2">
